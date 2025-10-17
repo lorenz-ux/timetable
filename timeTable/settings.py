@@ -43,12 +43,8 @@ INSTALLED_APPS = [
     'departement',
     'disponibilite',
     'matiere',
-<<<<<<< HEAD
-    'periode'
-=======
     'periode',
     'login'
->>>>>>> 59b55b3 (Ajout du login)
 ]
 
 MIDDLEWARE = [
