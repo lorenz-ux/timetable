@@ -20,11 +20,17 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('cours.urls')),
+    path('cours/',include('cours.urls')),
     path('enseignant/',include('enseignant.urls')),
     path('classe/',include('classe.urls')),
     path('departement/',include('departement.urls')),
     path('matiere/',include('matiere.urls')),
     path('periode/',include('periode.urls')),
+<<<<<<< HEAD
     path('disponibilite/',include('disponibilite.urls'))
     
+=======
+    path('disponibilite/',include('disponibilite.urls')),
+    path('login/',include('login.urls'))
+>>>>>>> 59b55b3 (Ajout du login)
 ]
