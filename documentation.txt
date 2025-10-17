@@ -1,0 +1,10 @@
+cette application permet de gerer les emplois de temps dans les colleges,
+chaque application Django represente un module de l'application
+technologie utilisee pour le front-end: HTML, CSS et bootstrap
+technologie utilisee pour le backe-end : PYTHON, 
+
+consigne a respecter: 
+- respecter la structure de l'application 
+- commenter chaque fonctionnalite (backend ou front end)
+- donner le role de chaque dependance installee ou configurer 
+- pousser ses projets uniquement sur la branche portant son nom
