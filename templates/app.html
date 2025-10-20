@@ -315,49 +315,49 @@
                   >
                     <!-- Add icons to the links using the .nav-icon class with font-awesome or any other icon font library -->
                     <li class="nav-item mt-3">
-                      <a href="{% url 'dashboard' %}" class="nav-link active">
+                      <a href="{% url 'dashboard' %}" class="nav-link {% if request.resolver_match.url_name == 'dashboard' %}active{% endif %}">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>Tableau de Bord</p>
                       </a>
                     </li>
                     <li class="nav-item mt-3">
-                      <a href="{% url 'cours' %}" class="nav-link ">
+                      <a href="{% url 'cours' %}" class="nav-link {% if request.resolver_match.url_name == 'cours' %}active{% endif %}">
                         <i class="nav-icon fas fa-calendar-alt"></i>
                         <p>cours</p>
                       </a>
                     </li>
                     <li class="nav-item mt-3">
-                      <a href="{% url 'departement' %}" class="nav-link ">
+                      <a href="{% url 'departement' %}" class="nav-link {% if request.resolver_match.url_name == 'departement' %}active{% endif %}">
                         <i class="nav-icon fas fa-university"></i>
                         <p>Departements</p>
                       </a>
                     </li>
                     <li class="nav-item mt-3">
-                      <a href="{% url 'classe' %}" class="nav-link ">
+                      <a href="{% url 'classe' %}" class="nav-link {% if request.resolver_match.url_name == 'classe' %}active{% endif %}">
                         <i class="nav-icon fas fa-users"></i>
                         <p>Classes</p>
                       </a>
                     </li>
                     <li class="nav-item mt-3">
-                      <a href="{% url 'enseignant' %}" class="nav-link ">
+                      <a href="{% url 'enseignant' %}" class="nav-link {% if request.resolver_match.url_name == 'enseignant' %}active{% endif %}">
                         <i class="nav-icon fas fa-chalkboard-teacher"></i>
                         <p>Enseignants</p>
                       </a>
                     </li>
                     <li class="nav-item mt-3">
-                      <a href="{% url 'matiere' %}" class="nav-link ">
+                      <a href="{% url 'matiere' %}" class="nav-link {% if request.resolver_match.url_name == 'matiere' %}active{% endif %}">
                         <i class="nav-icon fas fa-book-open"></i>
                         <p>Matiere</p>
                       </a>
                     </li>
                     <li class="nav-item mt-3">
-                      <a href="{% url 'disponibilite' %}" class="nav-link ">
+                      <a href="{% url 'disponibilite' %}" class="nav-link {% if request.resolver_match.url_name == 'disponibilite' %}active{% endif %}">
                         <i class="nav-icon fas fa-clock"></i>
                         <p>Disponibilite</p>
                       </a>
                     </li>
                     <li class="nav-item mt-3">
-                      <a href="{% url 'periode' %}" class="nav-link ">
+                      <a href="{% url 'periode' %}" class="nav-link {% if request.resolver_match.url_name == 'periode' %}active{% endif %}">
                         <i class="nav-icon fas fa-hourglass-half"></i>
                         <p>Periode</p>
                       </a>
